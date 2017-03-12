@@ -1,0 +1,76 @@
+html {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+nav{
+    background-color:#FFFFFF;
+}
+
+nav li{
+    padding-top:40px;
+    font-size:25pt;
+    color: rgb(93,51,106);
+}
+
+nav li a{
+    color: rgb(93,51,106);
+    text-decoration:none;
+    font-size:17pt;
+    border-right:2px solid rgb(93,51,106);
+}
+
+nav li span a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration:none;  
+    border:none;
+}
+
+nav li span a:hover{
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.navbar-toggle
+{
+    border:1px solid #444;
+}
+
+.icon-bar
+{
+    border:1px solid #444;
+}
+
+div#banner{
+    height:30px;
+    background-color:#383838;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.btn-default{
+    background-color:rgb(93,51,106);
+    color:#FFFFFF;
+    font-size:17pt;
+}
+
+.btn-fb{
+    background-image: url("/images/fb-art.jpg");
+    height:45px;
+    width:45px;
+    margin-top:3px;
+    margin-left:15px;
+    margin-right:10px;
+}
+
+div#footer-container{
+    position:absolute;
+    bottom:0;
+    margin:0;
+    padding:0;
+    height:80px;
+    width:100%;
+    background-color:#383838;
+}
