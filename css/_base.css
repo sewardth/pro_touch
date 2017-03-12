@@ -43,7 +43,7 @@ nav li span a:hover{
 }
 
 div#banner{
-    height:30px;
+    height:20px;
     background-color:#383838;
     width:100%;
     margin:0;
@@ -74,4 +74,17 @@ div#footer-container{
     height:80px;
     width:100%;
     background-color:#383838;
+}
+
+/* Modal Settings */
+
+.myform input.form-control {
+   display: block;  /* allows labels to sit on input when inline */
+   margin-bottom: 15px; /* gives padding to bottom of inline inputs */
+}
+
+div#response{
+    text-align:left;
+    font-size:12pt;
+    font-weight:bold;
 }
