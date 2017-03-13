@@ -9,3 +9,5 @@ $("#quoteSubmission").submit(function( event ) {
   });
   
 });
+
+$("#lastHeaderLink").css('border','none');

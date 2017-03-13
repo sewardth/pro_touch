@@ -1,3 +1,6 @@
+
+
+
 html body{
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     height: 100%;
@@ -5,35 +8,50 @@ html body{
     padding: 0;
 }
 
+/* media queries for nav font size */
+@media screen and (max-width: 767px) {
+    nav li a {
+        font-size: 1.2em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    nav li a {
+        font-size: 0.7em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    nav li a {
+        font-size: 1.3em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    nav li a {
+        font-size: 1.6em;
+    }
+}
+
 nav{
     background-color:#FFFFFF;
 }
 
+
 nav li{
-    padding-top:40px;
-    font-size:25pt;
     color: rgb(93,51,106);
+    padding-top:40px;
 }
 
 nav li a{
     color: rgb(93,51,106);
     text-decoration:none;
-    font-size:17pt;
     border-right:2px solid rgb(93,51,106);
 }
 
-nav li span a{
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    text-decoration:none;  
-    border:none;
-}
-
-nav li span a:hover{
-    text-decoration: none;
-    background-color: #eee;
-}
 
 .navbar-toggle
 {
@@ -45,7 +63,7 @@ nav li span a:hover{
     border:1px solid #444;
 }
 
-div#banner{
+nav div#banner{
     height:20px;
     background-color:#383838;
     width:100%;
@@ -56,7 +74,6 @@ div#banner{
 .btn-default{
     background-color:rgb(93,51,106);
     color:#FFFFFF;
-    font-size:17pt;
 }
 
 .btn-fb{
@@ -69,7 +86,7 @@ div#banner{
     border:0;
 }
 
-#main-wrapper {
+div#main-wrapper {
     box-sizing: border-box;
     min-height: 100%;
     padding: 0 0 100px;
@@ -85,10 +102,6 @@ footer {
     background-color:#383838;
 }
 
-footer div#footer-container{
-    
-}
-
 /* Modal Settings */
 
 .myform input.form-control {
@@ -100,4 +113,8 @@ div#response{
     text-align:left;
     font-size:12pt;
     font-weight:bold;
+}
+
+section{
+    margin-top:110px;
 }
