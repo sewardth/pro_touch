@@ -8,17 +8,39 @@ html body{
     padding: 0;
 }
 
+.btn-fb{
+    background-image: url("/images/fb-art.jpg");
+    height:45px;
+    width:45px;
+    margin-top:3px;
+    margin-left:25px;
+    margin-right:10px;
+    border:0;
+}
+
 /* media queries for nav font size */
 @media screen and (max-width: 767px) {
     nav li a {
         font-size: 1.2em;
+    }
+    div#logo-container{
+        width:200px;
+        margin-top:31px;
     }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
     nav li a {
-        font-size: 0.7em;
+        font-size: 1.3em;
+    }
+    div#logo-container{
+        width:200px;
+        margin-top:31px;
+    }
+    .btn-fb{
+        margin-right:0;
+        margin-left:10px;
     }
 }
 
@@ -27,12 +49,27 @@ html body{
     nav li a {
         font-size: 1.3em;
     }
+    div#logo-container{
+        width:250px;
+        margin-top:16px;
+    }
+    .btn-fb{
+    margin-left:25px;
+    margin-right:10px;
+    }
 }
 
 /* lg */
 @media screen and (min-width: 1200px) {
     nav li a {
         font-size: 1.6em;
+    }
+    div#logo-container{
+        width:300px;
+    }
+    .btn-fb{
+    margin-left:25px;
+    margin-right:10px;
     }
 }
 
@@ -43,7 +80,7 @@ nav{
 
 nav li{
     color: rgb(93,51,106);
-    padding-top:40px;
+    margin-top:40px;
 }
 
 nav li a{
@@ -66,25 +103,17 @@ nav li a{
 nav div#banner{
     height:20px;
     background-color:#383838;
-    width:100%;
     margin:0;
     padding:0;
 }
+
 
 .btn-default{
     background-color:rgb(93,51,106);
     color:#FFFFFF;
 }
 
-.btn-fb{
-    background-image: url("/images/fb-art.jpg");
-    height:45px;
-    width:45px;
-    margin-top:3px;
-    margin-left:25px;
-    margin-right:10px;
-    border:0;
-}
+
 
 div#main-wrapper {
     box-sizing: border-box;
