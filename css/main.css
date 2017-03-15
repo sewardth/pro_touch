@@ -1,13 +1,13 @@
 div#image-container{
     max-width:2048px;
     margin:0 auto;
-    padding-bottom:50px;
+    padding-bottom:75px;
 }
 
 div#main-content{
     max-width:75%;
     margin:0 auto;
-    padding-bottom:60px;
+    margin-bottom:80px;
 }
 
 div#main-content h1{
@@ -18,13 +18,53 @@ div#main-content h1{
 div#main-content h2{
     text-align: center;
     color:rgb(77,75,77);
+    margin-bottom:75px;
 }
+
+div#text-container{
+    width:100%;
+    margin:0 auto;
+    margin-bottom:100px;
+    display:inline-block;
+}
+
+div#left-container{
+    float:left;
+    width:49%;
+}
+
+div#right-container{
+    float:right;
+    width:49%;
+}
+
+.left-text{
+    float:right;
+}
+
+.right-text{
+    float:left;
+}
+
+div#text-container span{
+    color:rgb(93,51,106);
+    margin-right:5px;
+}
+
+
 
 /* media queries for h1 font size */
 @media screen and (max-width: 767px) {
     h1 {
         font-size: 1.2em;
     }
+    h2 {
+        font-size: 1.0em;
+    }
+    div#text-container span{
+        font-size: 0.75em;
+    }
+
 }
 
 /* sm */
@@ -32,12 +72,30 @@ div#main-content h2{
     h1 {
         font-size: 1.5em;
     }
+    h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1.35em;
+    }
+    div#text-container span{
+        font-size: 0.8em;
+    }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
     h1 {
         font-size: 1.7em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.8em;
+    }
+    div#text-container span{
+        font-size: 0.8em;
     }
 }
 
@@ -46,32 +104,14 @@ div#main-content h2{
     h1 {
         font-size: 1.9em;
     }
-}
-
-/* media queries for h2 font size */
-@media screen and (max-width: 767px) {
-    h2 {
-        font-size: 1.0em;
-    }
-}
-
-/* sm */
-@media screen and (min-width: 768px) {
-    h2 {
-        font-size: 1.3em;
-    }
-}
-
-/* md */
-@media screen and (min-width: 992px) {
-    h2 {
-        font-size: 1.5em;
-    }
-}
-
-/* lg */
-@media screen and (min-width: 1200px) {
     h2 {
         font-size: 1.7em;
+    }
+    p {
+        font-size: 2.1em;
+    }
+
+    div#text-container span{
+        font-size: 0.85em;
     }
 }
