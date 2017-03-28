@@ -18,14 +18,8 @@ handlers:
 - url: /images
   static_dir: images
 
-- url: /cleaning-process.*
-  script: controllers.cleaningProcess.app
-
-- url: /one-time-cleanings.*
-  script: controllers.oneTimeCleanings.app
-
-- url: /rotational-cleanings.*
-  script: controllers.rotationalCleanings.app
+- url: /services.*
+  script: controllers.services.app
 
 - url: /our-mission.*
   script: controllers.mission.app
