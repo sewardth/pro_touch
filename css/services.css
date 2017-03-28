@@ -1,0 +1,30 @@
+#parallax-container{
+    height:1000px;
+}
+
+#process-container{
+    background-image: url("/images/cleaning_supplies.jpg");
+}
+
+#rotation-container{
+    background-image: url("/images/sink.jpg");
+}
+
+#initial-container{
+    background-image: url("/images/kitchen.jpg");
+}
+
+
+
+.parallax{
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
