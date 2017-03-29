@@ -1,7 +1,3 @@
-#parallax-container{
-    height:1000px;
-}
-
 #process-container{
     background-image: url("/images/cleaning_supplies.jpg");
 }
@@ -19,12 +15,48 @@
 .parallax{
     
     /* Full height */
-    height: 100%; 
+    min-height: 100%; 
+
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
+    opacity: 0.65;
 }
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span{
+    background-color:rgb(52,0,69);
+    color:#FFFFFF;
+    padding:18px;
+    font-size:2.5em;
+}
+
+
+.descriptions{
+    text-align: center;
+    padding:5%;
+}
+
+.descriptions h2{
+    font-size:24pt;
+    margin-bottom:2%;
+}
+
+
+.descriptions p{
+    font-size:14pt;
+}
+
+
 
