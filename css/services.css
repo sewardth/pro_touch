@@ -1,6 +1,5 @@
 #process-container{
     background-image: url("/images/cleaning_supplies.jpg");
-    min-height:100%;
 }
 
 #rotation-container{
@@ -16,13 +15,9 @@
     width:100%;
 }
 
-#background-tab
-{
-    background-color: transparent;
-    height:10%;
-}
 
-#initial-cleans h2
+
+.beginning-segue h2
 {
     margin-top:0;
     padding:0;
@@ -34,9 +29,10 @@
     background-color:#FFFFFF;
 }
 
-#initial-cleans p{
+.beginning-segue p{
     padding:3%;
     font-size: 14pt;
+    text-align: center;
 }
 
 .parallax{
@@ -83,6 +79,7 @@
     padding:5px 18px 18px 18px;
     margin:0;
     font-size:2.5em;
+    text-align: center;
 }
 
 .caption-container{
@@ -96,29 +93,83 @@
 .caption-container .info-holder{
     position:relative;
     padding-top:5%;
-    width:950px;
+    width:1000px;
     margin:0 auto;
+    padding-bottom:5%;
 }
 
 .caption-container div.info{
     display:inline-block;
     vertical-align:top;
-    background-color:#383838;
-    color:#FFFFFF;
+    background-color:#C8C8C8;
+    color:black;
     font-size:12pt;
     top:0;
-    width:250px;
-    height:300px;
+    width:280px;
+    height:340px;
     margin-right:50px;
     margin-bottom:5%;
     position: relative;
+    border-radius:15px;
+    opacity: .9;
 }
 
-.caption-container div.info ul{
+.caption-container .header{
+    background-color:rgb(52,0,69);
+    margin:0;
+    padding:0;
+    top:0;
+    color:#FFFFFF;
+    border-radius:15px 15px 0px 0px;
+    margin-bottom:10px;
+    height:80px;
+}
+
+.header h3{
+    margin:0;
+    padding:0;
+    line-height: 80px;
+}
+
+li span{
+    margin-right:5px;
+    font-size: 10pt;
+    color:rgb(52,0,69);
+}
+
+.caption-container li{
+    text-align: left;
+    padding-left:20px;
+}
+
+.caption-container ul{
     list-style-type: none;
     margin:0;
     padding:0;
 }
+
+.caption-container div.info-large{
+    display:inline-block;
+    vertical-align:top;
+    background-color:#C8C8C8;
+    color:black;
+    font-size:12pt;
+    top:0;
+    width:325px;
+    height:630px;
+    margin-right:50px;
+    margin-bottom:5%;
+    position: relative;
+    border-radius: 15px;
+    opacity: .9;
+}
+
+.caption-container div.info-large p{
+    font-weight: bold;
+    margin-top:5px;
+}
+
+
 
 .descriptions{
     text-align: center;
