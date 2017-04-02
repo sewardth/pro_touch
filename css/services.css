@@ -1,5 +1,6 @@
 #process-container{
     background-image: url("/images/cleaning_supplies.jpg");
+    min-height:100%;
 }
 
 #rotation-container{
@@ -10,7 +11,33 @@
     background-image: url("/images/kitchen.jpg");
 }
 
+#initial-cleans{
+    text-align: center;
+    width:100%;
+}
 
+#background-tab
+{
+    background-color: transparent;
+    height:10%;
+}
+
+#initial-cleans h2
+{
+    margin-top:0;
+    padding:0;
+    width:300px;
+    padding-bottom:1%;
+    margin:0 auto;
+    border-radius: 10px 10px 0px 0px;
+    border:solid 1px #FFFFFF;
+    background-color:#FFFFFF;
+}
+
+#initial-cleans p{
+    padding:3%;
+    font-size: 14pt;
+}
 
 .parallax{
     
@@ -29,9 +56,9 @@
 
 .caption{
     position: absolute;
-    left: 0;
     top: 40%;
     width: 100%;
+    left:0;
     text-align: center;
 }
 
@@ -42,25 +69,52 @@
     font-size:2.5em;
 }
 
-.caption2{
-    position: absolute;
+.ending-segue{
+    position:absolute;
+    left:0;
+    bottom:1%;
+    width:100%;
+    text-align: center;
+}
+
+.ending-segue span{
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    padding:5px 18px 18px 18px;
+    margin:0;
+    font-size:2.5em;
+}
+
+.caption-container{
+    position: relative;
     left: 0;
     top: 10%;
     width: 100%;
     text-align: center;
 }
 
-.caption2 div.info{
-    display:inline-block;
-    background-color:#383838;
-    color:#FFFFFF;
-    padding:10px;
-    font-size:12pt;
-    margin:2%;
-    width:20%;
+.caption-container .info-holder{
+    position:relative;
+    padding-top:5%;
+    width:950px;
+    margin:0 auto;
 }
 
-.caption2 div.info ul{
+.caption-container div.info{
+    display:inline-block;
+    vertical-align:top;
+    background-color:#383838;
+    color:#FFFFFF;
+    font-size:12pt;
+    top:0;
+    width:250px;
+    height:300px;
+    margin-right:50px;
+    margin-bottom:5%;
+    position: relative;
+}
+
+.caption-container div.info ul{
     list-style-type: none;
     margin:0;
     padding:0;
