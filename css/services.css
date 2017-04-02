@@ -82,6 +82,15 @@
     text-align: center;
 }
 
+.caption-text{
+    margin:0 auto;
+    width:30%;
+    background-color:rgb(52,0,69);
+    border-radius:10px;
+    padding:1%;
+    color:#FFFFFF;
+}
+
 .caption-container{
     position: relative;
     left: 0;
