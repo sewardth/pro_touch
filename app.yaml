@@ -21,14 +21,8 @@ handlers:
 - url: /services.*
   script: controllers.services.app
 
-- url: /our-mission.*
-  script: controllers.mission.app
-
-- url: /customer-testimonials.*
-  script: controllers.customerReviews.app
-
-- url: /our-staff.*
-  script: controllers.staff.app
+- url: /about-us.*
+  script: controllers.about.app
 
 - url: .*
   script: controllers.main.app

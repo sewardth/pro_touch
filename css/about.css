@@ -1,0 +1,47 @@
+#staff-container{
+    background-image: url("/images/staff.jpg");
+}
+
+.parallax{
+    
+    /* Full height */
+    min-height: 100%; 
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.caption{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    left:0;
+    text-align: center;
+}
+
+.caption-text{
+    margin:0 auto;
+    width:60%;
+    border-radius:10px;
+    padding:1%;
+    color:black;
+    font-weight: bold;
+    font-size:3.0em;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.caption-text p{
+    padding:0;
+    margin:0;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

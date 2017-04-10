@@ -11,7 +11,7 @@ class Services(webapp2.RequestHandler):
     
         template_values = {'pageCSSFile':'services.css',
                             'pageJavaScriptFile':'main.js',
-                            'title':'ProTouch'}
+                            'title':'Services'}
         template = jinja_env.get_template('services.html')
         self.response.write(template.render(template_values))
 
