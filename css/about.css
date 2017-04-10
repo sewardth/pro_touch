@@ -30,14 +30,20 @@
     border-radius:10px;
     padding:1%;
     color:black;
-    font-weight: bold;
-    font-size:3.0em;
-    font-family: 'Palanquin Dark', sans-serif;
+    font-size:2.0em;
+    font-family: 'Anton', sans-serif;
 }
 
 .caption-text p{
     padding:0;
     margin:0;
+}
+
+.additional-text{
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
 }
 
 @media only screen and (max-device-width: 1024px) {
