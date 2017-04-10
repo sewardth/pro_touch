@@ -229,6 +229,15 @@ li span{
     .caption-container div.info-large p{
         font-size:1.9em;
     }
+    .beginning-segue p{
+        font-size:1.8em;
+    }
+    .ending-segue span{
+        font-size:2.4em;
+    }
+    .caption-container h3{
+        font-size:1.9em;
+    }
 }
 
 /* sm */
@@ -252,6 +261,15 @@ li span{
     }
     .caption-container div.info-large p{
         font-size:2.1em;
+    }
+    .beginning-segue p{
+        font-size:1.8em;
+    }
+    .ending-segue span{
+        font-size:2.4em;
+    }
+    .caption-container h3{
+        font-size:2.0em;
     }
     
 }
@@ -278,6 +296,15 @@ li span{
     .caption-container div.info-large p{
         font-size:1.5em;
     }
+    .beginning-segue p{
+        font-size:1.4em;
+    }
+    .ending-segue span{
+        font-size:2.4em;
+    }
+    .caption-container h3{
+        font-size:1.3em;
+    }
     
 }
 
@@ -302,6 +329,15 @@ li span{
     }
     .caption-container div.info-large p{
         font-size:1.6em;
+    }
+    .beginning-segue p{
+        font-size:1.6em;
+    }
+    .ending-segue span{
+        font-size:2.6em;
+    }
+    .caption-container h3{
+        font-size:1.4em;
     }
 }
 
