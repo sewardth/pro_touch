@@ -105,7 +105,7 @@
 .caption-container .info-holder{
     position:relative;
     padding-top:5%;
-    width:1000px;
+    width:90%;
     margin:0 auto;
     padding-bottom:5%;
 }
@@ -117,9 +117,9 @@
     color:black;
     font-size:12pt;
     top:0;
-    width:280px;
+    width:32%;
     height:340px;
-    margin-right:50px;
+    margin-right:1%;
     margin-bottom:5%;
     position: relative;
     border-radius:15px;
@@ -151,7 +151,7 @@ li span{
 
 .caption-container li{
     text-align: left;
-    padding-left:20px;
+    padding-left:5%;
 }
 
 .caption-container ul{
@@ -167,9 +167,9 @@ li span{
     color:black;
     font-size:12pt;
     top:0;
-    width:325px;
+    width:45%;
     height:630px;
-    margin-right:50px;
+    margin-right:1%;
     margin-bottom:5%;
     position: relative;
     border-radius: 15px;
@@ -214,6 +214,21 @@ li span{
     p{
         font-size:0.8em;
     }
+    .caption-container div.info{
+        width:100%;
+        height:100%;
+        margin-bottom:20%;
+    }
+    .caption-container li{
+        font-size:1.6em;
+    }
+    .caption-container div.info-large{
+        width:100%;
+        height:100%;
+    }
+    .caption-container div.info-large p{
+        font-size:1.9em;
+    }
 }
 
 /* sm */
@@ -223,6 +238,20 @@ li span{
     }
     p{
         font-size:1.0em;
+    }
+    .caption-container div.info{
+        width:100%;
+        height:100%;
+    }
+    .caption-container li{
+        font-size:2.0em;
+    }
+    .caption-container div.info-large{
+        width:100%;
+        height:100%;
+    }
+    .caption-container div.info-large p{
+        font-size:2.1em;
     }
     
 }
@@ -235,6 +264,20 @@ li span{
     p{
         font-size:1.2em;
     }
+    .caption-container div.info{
+        width:40%;
+        height:370px;
+    }
+    .caption-container li{
+        font-size:1.1em;
+    }
+    .caption-container div.info-large{
+        width:35%;
+        height:760px;
+    }
+    .caption-container div.info-large p{
+        font-size:1.5em;
+    }
     
 }
 
@@ -245,6 +288,20 @@ li span{
     }
     p{
         font-size:1.5em;
+    }
+    .caption-container div.info{
+        width:32%;
+        height:390px;
+    }
+    .caption-container li{
+        font-size:1.2em;
+    }
+    .caption-container div.info-large{
+        width:45%;
+        height:760px;
+    }
+    .caption-container div.info-large p{
+        font-size:1.6em;
     }
 }
 
