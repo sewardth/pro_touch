@@ -81,6 +81,22 @@ html, body, #main-wrapper{
     }
 }
 
+/*collapse navigation sooner than default for mobile */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
 nav{
     background-color:#FFFFFF;
 }
@@ -155,4 +171,13 @@ div#response{
 
 section{
     margin-top:110px;
+}
+
+#map-canvas{
+    height:400px;
+    width:100%;
+}
+
+.location-desc{
+    text-align:center;
 }
