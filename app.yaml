@@ -24,6 +24,9 @@ handlers:
 - url: /about-us.*
   script: controllers.about.app
 
+- url: /quote.*
+  script: controllers.quoteSubmissions.app
+
 - url: .*
   script: controllers.main.app
 
