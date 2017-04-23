@@ -7,7 +7,14 @@ html, body, #main-wrapper{
     width:100%;
     margin: 0;
     padding: 0;
+    position:relative;
 }
+
+body{
+    margin:0 0 50px;
+}
+
+
 
 .btn-fb{
     background-image: url("/images/fb-art.jpg");
@@ -21,6 +28,7 @@ html, body, #main-wrapper{
 
 #dynamic-content{
     height:100%;
+    position:relative;
 }
 
 /* media queries for nav font size */
@@ -35,7 +43,7 @@ html, body, #main-wrapper{
 }
 
 /* sm */
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     nav li a {
         font-size: 1.3em;
     }
@@ -47,7 +55,7 @@ html, body, #main-wrapper{
         margin-right:0;
         margin-left:10px;
     }
-}
+}*/
 
 /* md */
 @media screen and (min-width: 992px) {
@@ -82,20 +90,47 @@ html, body, #main-wrapper{
 }
 
 /*collapse navigation sooner than default for mobile */
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
+
+
+@media (max-width: 1020px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
 }
+
+
+
 
 nav{
     background-color:#FFFFFF;
@@ -148,9 +183,9 @@ div#main-wrapper {
 }
 
 footer {
+    height: 50px;
     bottom:0;
     left:0;
-    height: 100px;
     position:absolute;
     width: 100%;
     background-color:#383838;
@@ -180,4 +215,5 @@ section{
 
 .location-desc{
     text-align:center;
+    font-size:14pt;
 }
