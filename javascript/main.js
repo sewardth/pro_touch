@@ -1,12 +1,21 @@
 //handle quote submission form
 $("#quoteSubmission").submit(function( event ) {
   event.preventDefault();
-  $("#response").append("submitted").addClass("alert alert-success");
-  $("#myModal").fadeOut(5000, function(){
-    $('quoteSubmission').trigger("reset");
-    $("#modalClose").click();
+  
+  $.post( "\quotes", $(this).serialize())
+    .done(function( data ) {
+      $("#response").empty().removeClass();
+      $("#response").append("Request Submitted!  We will be in touch within 1 business day.").addClass("alert alert-success");
+      $("#quoteSubmission").trigger("reset");
+      
+  })
+  .fail(function(){
     $("#response").empty().removeClass();
+    $("#response").append('Something went wrong!  If you continue to experience this error, please contact us directly at <a href="mailto:info@protouchclean.com">info@protouchclean.com</a>.').addClass("alert alert-danger");
+  })
+  .always(function(){
   });
+
   
 });
 
