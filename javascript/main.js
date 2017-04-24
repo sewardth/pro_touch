@@ -7,7 +7,7 @@ $("#quoteSubmission").submit(function( event ) {
       $("#response").empty().removeClass();
       $("#response").append("Request Submitted!  We will be in touch within 1 business day.").addClass("alert alert-success");
       $("#quoteSubmission").trigger("reset");
-      
+
   })
   .fail(function(){
     $("#response").empty().removeClass();
@@ -19,6 +19,9 @@ $("#quoteSubmission").submit(function( event ) {
   
 });
 
+
+//set the copyright year
+$('#copyright-year').text(new Date().getFullYear());
 
 //clean up last header icon
 $("#lastHeaderLink").css('border','none');

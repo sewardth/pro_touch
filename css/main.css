@@ -4,7 +4,7 @@ div#image-container{
     background-image: url("/images/main_image_background.jpg");
 
     /* Full height */
-    height: 80%; 
+    height: 75%; 
 
     /* Center and scale the image nicely */
     background-position: center;
