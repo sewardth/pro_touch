@@ -43,7 +43,7 @@ body{
 }
 
 /* sm */
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     nav li a {
         font-size: 1.3em;
     }
@@ -55,7 +55,7 @@ body{
         margin-right:0;
         margin-left:10px;
     }
-}*/
+}
 
 /* md */
 @media screen and (min-width: 992px) {
