@@ -119,9 +119,6 @@ div#text-container span{
     div#text-container span{
         font-size: 0.8em;
     }
-    .btn-default{
-        font-size:0.8em;
-    }
     div#top_button .btn-default{
         font-size:1.8em;
     }
@@ -144,9 +141,6 @@ div#text-container span{
     }
     div#text-container span{
         font-size: 0.8em;
-    }
-    .btn-default{
-        font-size:2.0em;
     }
     div#top_button .btn-default{
         font-size:2.2em;
@@ -173,9 +167,6 @@ div#text-container span{
         font-size: 0.85em;
     }
 
-    .btn-default{
-        font-size:2.2em;
-    }
     div#top_button .btn-default{
         font-size:2.4em;
     }
