@@ -19,6 +19,16 @@ $("#quoteSubmission").submit(function( event ) {
   
 });
 
+//mouse cursor on hover for image logo
+ $("#logo-container").hover(function() {
+        $(this).css('cursor','pointer');
+    });
+
+
+//make the logo image clickable
+$("#logo-container").click(function(){
+    window.location=$(this).attr("data-href");
+});
 
 //set the copyright year
 $('#copyright-year').text(new Date().getFullYear());
