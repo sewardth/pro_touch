@@ -15,7 +15,7 @@ $( document ).ready(function() {
 
     if(content === "rotation")
     {
-        $("#rotation-system-dialogue").click();
+        $("#initial-cleans-dialogue").click();
     }
     else if(content === "one-time")
     {
