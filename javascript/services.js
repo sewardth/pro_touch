@@ -22,3 +22,36 @@ $( document ).ready(function() {
         $("#one-time-dialogue").click();
     }
 });
+
+//functions to handle modal links
+$(".rotation-link-button").click(function(){
+    $(".initial-cleans-close").click();
+    $(".one-time-close").click();
+
+    setTimeout(function() {
+        $("#rotation-system-dialogue").click();
+    }, 500);
+    
+});
+
+
+$(".one-time-button").click(function(){
+    $(".initial-cleans-close").click();
+    $(".rotation-close").click();
+
+    setTimeout(function() {
+        $("#one-time-dialogue").click();
+    }, 500);
+    
+});
+
+$(".initial-cleans-button").click(function(){
+     $(".one-time-close").click();
+     $(".rotation-close").click();
+
+    setTimeout(function() {
+        $("#initial-cleans-dialogue").click();
+    }, 500);
+    
+});
+
