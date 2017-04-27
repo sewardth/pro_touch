@@ -2,14 +2,6 @@
     background-image: url("/images/cleaning_supplies.jpg");
 }
 
-#rotation-container{
-    background-image: url("/images/sink.jpg");
-}
-
-#initial-container{
-    background-image: url("/images/kitchen.jpg");
-}
-
 #initial-cleans{
     text-align: center;
     width:100%;
@@ -18,25 +10,6 @@
 #dynamic-content{
     margin-top:100px;
     }
-
-
-.beginning-segue h2
-{
-    margin-top:0;
-    padding:0;
-    width:300px;
-    padding-bottom:1%;
-    margin:0 auto;
-    border-radius: 10px 10px 0px 0px;
-    border:solid 1px #FFFFFF;
-    background-color:#FFFFFF;
-}
-
-.beginning-segue p{
-    padding:3%;
-    font-size: 14pt;
-    text-align: center;
-}
 
 .parallax{
     
@@ -65,7 +38,6 @@
     background-color:rgb(52,0,69);
     color:#FFFFFF;
     padding:18px;
-    font-size:2.5em;
 }
 
 .ending-segue{
@@ -85,6 +57,19 @@
     text-align: center;
 }
 
+.ending-segue span:hover{
+    background-color:rgb(52,0,69);
+}
+
+.ending-segue span a{
+    text-decoration: none;
+    color:rgb(77,75,77);
+}
+
+.ending-segue span a:hover{
+    color:#FFFFFF;
+}
+
 .caption-text{
     margin:0 auto;
     width:50%;
@@ -94,54 +79,6 @@
     color:#FFFFFF;
 }
 
-.caption-container{
-    position: relative;
-    left: 0;
-    top: 10%;
-    width: 100%;
-    text-align: center;
-}
-
-.caption-container .info-holder{
-    position:relative;
-    padding-top:5%;
-    width:90%;
-    margin:0 auto;
-    padding-bottom:5%;
-}
-
-.caption-container div.info{
-    display:inline-block;
-    vertical-align:top;
-    background-color:#C8C8C8;
-    color:black;
-    font-size:12pt;
-    top:0;
-    width:32%;
-    height:340px;
-    margin-right:1%;
-    margin-bottom:5%;
-    position: relative;
-    border-radius:15px;
-    opacity: .9;
-}
-
-.caption-container .header{
-    background-color:rgb(52,0,69);
-    margin:0;
-    padding:0;
-    top:0;
-    color:#FFFFFF;
-    border-radius:15px 15px 0px 0px;
-    margin-bottom:10px;
-    height:80px;
-}
-
-.header h3{
-    margin:0;
-    padding:0;
-    line-height: 80px;
-}
 
 li span{
     margin-right:5px;
@@ -149,196 +86,82 @@ li span{
     color:rgb(52,0,69);
 }
 
-.caption-container li{
-    text-align: left;
-    padding-left:5%;
-}
-
-.caption-container ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-}
-
-.caption-container div.info-large{
-    display:inline-block;
-    vertical-align:top;
-    background-color:#C8C8C8;
-    color:black;
-    font-size:12pt;
-    top:0;
-    width:45%;
-    height:630px;
-    margin-right:1%;
-    margin-bottom:5%;
-    position: relative;
-    border-radius: 15px;
-    opacity: .9;
-}
-
-.caption-container div.info-large p{
-    font-weight: bold;
-    margin-top:5px;
-}
 
 
-
-.descriptions{
+.modal-header{
     text-align: center;
-    padding:5%;
 }
 
-.descriptions h2{
-    font-size:24pt;
-    margin-bottom:2%;
+.modal-header h4{
+    font-size:2.0em;
 }
 
-
-.descriptions p{
-    font-size:14pt;
+.modal-header p{
+    font-size:1.3em;
 }
 
-
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
+.modal-body ul{
+    list-style-type: none;
+    padding:0;
+    margin-left:10px;
 }
 
 
-/* media queries for nav font size */
+/* media queries for font size */
 @media screen and (max-width: 767px) {
-    h2{
+    .modal-body li{
+        font-size:1.5em;
+    }
+
+    .caption-text{
         font-size:1.2em;
     }
-    p{
-        font-size:0.8em;
+    .ending-segue a{
+        font-size: 0.4em;
     }
-    .caption-container div.info{
-        width:100%;
-        height:100%;
-        margin-bottom:20%;
-    }
-    .caption-container li{
-        font-size:1.6em;
-    }
-    .caption-container div.info-large{
-        width:100%;
-        height:100%;
-    }
-    .caption-container div.info-large p{
-        font-size:1.9em;
-    }
-    .beginning-segue p{
-        font-size:1.8em;
-    }
-    .ending-segue span{
-        font-size:2.4em;
-    }
-    .caption-container h3{
-        font-size:1.9em;
-    }
+
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
-    h2{
-        font-size:1.6em;
+    .modal-body li{
+        font-size:1.1em;
     }
-    p{
-        font-size:1.0em;
+
+    .caption-text{
+        font-size:1.5em;
     }
-    .caption-container div.info{
-        width:100%;
-        height:100%;
+    .ending-segue a{
+        font-size: 0.8em;
     }
-    .caption-container li{
-        font-size:2.0em;
-    }
-    .caption-container div.info-large{
-        width:100%;
-        height:100%;
-    }
-    .caption-container div.info-large p{
-        font-size:2.1em;
-    }
-    .beginning-segue p{
-        font-size:1.8em;
-    }
-    .ending-segue span{
-        font-size:2.4em;
-    }
-    .caption-container h3{
-        font-size:2.0em;
-    }
-    
 }
 
 /* md */
 @media screen and (min-width: 992px) {
-    h2{
-        font-size:1.8em;
-    }
-    p{
-        font-size:1.2em;
-    }
-    .caption-container div.info{
-        width:40%;
-        height:370px;
-    }
-    .caption-container li{
+    .modal-body li{
         font-size:1.1em;
     }
-    .caption-container div.info-large{
-        width:35%;
-        height:760px;
-    }
-    .caption-container div.info-large p{
+
+    .caption-text{
         font-size:1.5em;
     }
-    .beginning-segue p{
-        font-size:1.4em;
+    .ending-segue a{
+        font-size: 0.8em;
     }
-    .ending-segue span{
-        font-size:2.4em;
-    }
-    .caption-container h3{
-        font-size:1.3em;
-    }
-    
 }
 
 /* lg */
 @media screen and (min-width: 1200px) {
-    h2{
-        font-size:2.0em;
+    .modal-body li{
+        font-size:1.1em;
     }
-    p{
+
+    .caption-text{
         font-size:1.5em;
     }
-    .caption-container div.info{
-        width:32%;
-        height:390px;
+
+    .ending-segue a{
+        font-size: 1.0em;
     }
-    .caption-container li{
-        font-size:1.2em;
-    }
-    .caption-container div.info-large{
-        width:45%;
-        height:760px;
-    }
-    .caption-container div.info-large p{
-        font-size:1.6em;
-    }
-    .beginning-segue p{
-        font-size:1.6em;
-    }
-    .ending-segue span{
-        font-size:2.6em;
-    }
-    .caption-container h3{
-        font-size:1.4em;
-    }
+
 }
-
-

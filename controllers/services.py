@@ -10,7 +10,7 @@ class Services(webapp2.RequestHandler):
     def get(self):
     
         template_values = {'pageCSSFile':'services.css',
-                            'pageJavaScriptFile':'main.js',
+                            'pageJavaScriptFile':'services.js',
                             'title':'Services'}
         template = jinja_env.get_template('services.html')
         self.response.write(template.render(template_values))
